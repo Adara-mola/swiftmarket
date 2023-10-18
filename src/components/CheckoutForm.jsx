@@ -3,8 +3,6 @@ import { FormInput, SubmitBtn } from '../components';
 import { Form, Link, redirect, useNavigate } from 'react-router-dom';
 import { customFetch, formatPrice } from '../utils';
 import { toast } from 'react-toastify';
-import { loginUser } from '../features/cart/user/userSlice';
-import { useDispatch } from 'react-redux';
 import { clearCart } from '../features/cart/CartSlice';
 
 export const action = (store, queryClient) => async({request}) => {

@@ -2,7 +2,7 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
 import { clearCart } from '../features/cart/CartSlice'
-import { logoutUser } from '../features/cart/user/UserSlice'
+import { logoutUser } from '../features/user/UserSlice'
 import { useQueryClient } from '@tanstack/react-query'
 
 const Header = () => {

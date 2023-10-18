@@ -3,7 +3,7 @@ import { FaBarsStaggered } from 'react-icons/fa6';
 import { NavLink } from 'react-router-dom';
 import NavLinks from './NavLinks';
 import { useSelector, useDispatch } from 'react-redux';
-import { toggleTheme } from '../features/cart/user/UserSlice';
+import { toggleTheme } from '../features/user/UserSlice';
 
 
  
