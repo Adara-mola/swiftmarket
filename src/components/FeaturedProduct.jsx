@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionTitle from './sectionTitle'
+import SectionTitle from './SectionTitle'
 import ProductGrid from './ProductGrid'
 
 const FeaturedProduct = () => {
